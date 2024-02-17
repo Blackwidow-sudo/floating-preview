@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contents">
     <div
       class="contents"
       @mouseenter="onMouseEnter"
@@ -9,18 +9,8 @@
     </div>
     <div
       ref="tooltip"
-      :class="[
-        'absolute',
-        'top-0',
-        'left-0',
-        'p-1',
-        'bg-slate-400',
-        'z-10',
-        'rounded',
-        'shadow-md',
-        'w-max',
-        ...(!hovering ? ['hidden'] : []),
-      ]"
+      v-show="hovering"
+      class="absolute top-0 left-0 z-10 p-1 rounded shadow-md bg-slate-400 w-max"
       role="tooltip">
       <slot name="preview" />
     </div>
