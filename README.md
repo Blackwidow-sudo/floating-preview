@@ -1,6 +1,16 @@
-# Vue 3 + Vite
+# Vue 2 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repo is just a sandbox to test stuff out in Vue2.
+
+Currently there is a implementation of a floating preview tooltip that follows the mouse cursor.
+Another subject i test here is nested routing with vue-router
+
+```
+npm i
+```
+```
+npm run dev
+```
 
 ## Recommended IDE Setup
 
