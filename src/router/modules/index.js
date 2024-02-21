@@ -1,6 +1,6 @@
-import users from "./users";
-import home from "./home";
+import users from './users'
+import home from './home'
 
-const routes = [home, users];
+const routes = [home, users]
 
-export default routes;
+export default routes

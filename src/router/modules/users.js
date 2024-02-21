@@ -1,5 +1,5 @@
 export default {
-    name: "users",
-    path: "/users",
-    component: () => import("@views/UsersView.vue"),
-};
+  name: 'users',
+  path: '/users',
+  component: () => import('@views/UsersView.vue'),
+}
