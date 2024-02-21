@@ -1,7 +1,8 @@
 <template>
   <div class="grid grid-cols-8 gap-2 p-4">
     <UserTile
-      v-for="item in users"
+      v-for="(item, index) in users"
+      :key="index"
       :user="item" />
   </div>
 </template>
